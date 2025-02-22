@@ -13,8 +13,6 @@
     
 }
 
-.field-item-active{
-    background-image: url(../img/goblin.png);
-    background-position: center center;
-    background-size: contain;
+img {
+    width: 100%;
 }
