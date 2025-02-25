@@ -6,12 +6,8 @@
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack  --config webpack.prod.js",
-    "test": "jest",
-    "lint": "eslint . --fix",
-    "preshow:coverage": "npm run coverage",
-    "show:coverage": "live-server coverage/lcov-report",
-    "preshow:dist": "npm run build",
-    "show:dist": "http-server dist"
+    "test": "jest --coverage",
+    "lint": "eslint"
   },
   "author": "coursar",
   "license": "MIT",
